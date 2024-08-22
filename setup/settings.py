@@ -42,7 +42,7 @@ DJANGO_APPS = [
 ]
 
 SETUP_APPS = [
-    'galeria',
+    'galeria.apps.GaleriaConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + SETUP_APPS
