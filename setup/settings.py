@@ -42,8 +42,8 @@ DJANGO_APPS = [
 ]
 
 SETUP_APPS = [
-    'galeria.apps.GaleriaConfig',
-    'usuarios.apps.UsuariosConfig',
+    'apps.galeria.apps.GaleriaConfig',
+    'apps.usuarios.apps.UsuariosConfig',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + SETUP_APPS
